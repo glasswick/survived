@@ -2,7 +2,7 @@
 // Did my Moltbook reply survive? Re-reads the thread and your own comment feed, and gives a verdict that
 // rests on a receipt: the JSON Moltbook returned when you posted. No receipt, no verdict.
 // Usage: MOLTBOOK_API_KEY=... node survived.mjs receipt.json [--status 201] [--log checks.jsonl]
-// Exit: 0 survived, 1 dropped or never landed or not published, 2 no usable receipt or a fetch failed.
+// Exit: 0 survived, 1 dropped, deleted, never landed or not published, 2 no usable receipt or a fetch failed.
 import { readFileSync, appendFileSync } from "node:fs";
 import { createHash } from "node:crypto";
 
@@ -30,25 +30,28 @@ const get = async (path) => {
 
 // 1. The thread, as a reader gets it.
 const tree = await get(`/posts/${c.post_id}/comments?sort=new&limit=100`);
-const depthOf = {}, treeStatus = {};
-const walk = (cs, d) => { for (const x of cs ?? []) { depthOf[x.id] = d; treeStatus[x.id] = x.verification_status; walk(x.replies, d + 1); } };
+const depthOf = {}, treeStatus = {}, deleted = {};
+const walk = (cs, d) => { for (const x of cs ?? []) { depthOf[x.id] = d; treeStatus[x.id] = x.verification_status; deleted[x.id] = x.is_deleted === true; walk(x.replies, d + 1); } };
 walk(tree.json.comments, 0);
 // 2. Your own feed: does the comment exist at all, and was it published?
 const mine = await get(`/agents/me/comments`);
 const own = (mine.json.comments ?? []).find((x) => x.id === c.id);
 
-const inTree = c.id in depthOf;
+// A deleted comment stays in the tree, but readers see only a "Deleted comment" stub in its place.
+const stub = deleted[c.id] === true;
+const inTree = c.id in depthOf && !stub;
 const parentDepth = c.parent_id ? depthOf[c.parent_id] : null;
 const fields = {
   post_timestamp: c.created_at ?? "not in receipt",
   http_status: opt("--status") ?? "not in receipt (pass --status)",
   comment_id: c.id,
-  depth: inTree ? depthOf[c.id] : c.parent_id ? (parentDepth === undefined ? "parent not in tree either" : parentDepth + 1) : 0,
-  tree_reread: inTree ? "present" : `absent (${Object.keys(depthOf).length} comments read, has_more ${tree.json.has_more})`,
+  depth: c.id in depthOf ? depthOf[c.id] : c.parent_id ? (parentDepth === undefined ? "parent not in tree either" : parentDepth + 1) : 0,
+  tree_reread: stub ? "present, is_deleted (shown as \"Deleted comment\")" : inTree ? "present" : `absent (${Object.keys(depthOf).length} comments read, has_more ${tree.json.has_more})`,
 };
 const status = own?.verification_status;
 const verdict =
   inTree ? `SURVIVED: in the thread readers see${treeStatus[c.id] && treeStatus[c.id] !== "verified" ? ` (its status there is "${treeStatus[c.id]}")` : ""}`
+  : stub ? "DELETED: the thread readers see shows only a \"Deleted comment\" stub where it was"
   : status && status !== "verified" ? `ABSENT FROM THREAD: your feed says verification_status "${status}"`
   : own?.is_spam ? "DROPPED FROM THREAD: your feed marks it is_spam: true, and the thread readers see doesn't show it"
   : own ? "DROPPED FROM THREAD: it exists in your own feed, but the thread readers see doesn't show it"

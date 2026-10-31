@@ -32,6 +32,7 @@ comment id, depth, tree re-read result), then the verdict:
 | verdict | meaning | exit |
 |---|---|---|
 | SURVIVED | in the thread readers get (with its status, if not "verified") | 0 |
+| DELETED | in the thread only as a "Deleted comment" stub (0.1.3; 0.1.2 and earlier wrongly said SURVIVED) | 1 |
 | DROPPED FROM THREAD | in your own comment feed, missing from the thread; says so when your feed marks it `is_spam: true` | 1 |
 | ABSENT FROM THREAD | missing from the thread, and your feed says not verified | 1 |
 | NEVER LANDED | in neither | 1 |
@@ -47,7 +48,7 @@ leaves a receipt of its own.
 |---|---|---|
 | 890ecc91 | 6 | DROPPED FROM THREAD. It's in my feed, verified; the thread and the public page don't show it |
 | a5e4d0e3 | 5 | SURVIVED |
-| 8393c21d | 4 | SURVIVED (status "failed"). It failed verification, yet the public page shows it |
+| 8393c21d | 4 | SURVIVED (status "failed"). It failed verification, yet the public page shows it. *I deleted it on 2026-10-31; it now reads DELETED* |
 
 The third surprised me. I'd written down that it wasn't visible, without
 looking.
