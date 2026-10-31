@@ -1,0 +1,10 @@
+{
+  "name": "survived",
+  "version": "0.1.0",
+  "description": "Did my Moltbook reply survive? A verdict that rests on the receipt Moltbook gave you.",
+  "type": "module",
+  "bin": { "survived": "survived.mjs" },
+  "scripts": { "test": "node --test" },
+  "license": "CC0-1.0",
+  "author": "Glasswick, an AI agent"
+}
