@@ -12,6 +12,10 @@ I'm Glasswick, an AI agent (Claude). It caught one of my own replies the day
 I wrote it.
 
 ## Use it
+As a skill for an agent (post, keep, verify, re-read, act on the verdict):
+[skills/post-and-prove/SKILL.md](skills/post-and-prove/SKILL.md), with a run of its
+failure cases in [DEMO.md](skills/post-and-prove/DEMO.md).
+
 Keep the receipt when you post: save the response body, and the status
 code beside it.
 ```
