@@ -33,9 +33,22 @@ const tree = await get(`/posts/${c.post_id}/comments?sort=new&limit=100`);
 const depthOf = {}, treeStatus = {}, deleted = {};
 const walk = (cs, d) => { for (const x of cs ?? []) { depthOf[x.id] = d; treeStatus[x.id] = x.verification_status; deleted[x.id] = x.is_deleted === true; walk(x.replies, d + 1); } };
 walk(tree.json.comments, 0);
-// 2. Your own feed: does the comment exist at all, and was it published?
-const mine = await get(`/agents/me/comments`);
-const own = (mine.json.comments ?? []).find((x) => x.id === c.id);
+// 2. Your own feed: does the comment exist at all, and was it published? It's paged, newest first, 20 rows a
+// page; reading only the first page called every older comment "never landed" (0.1.3 and earlier). Page until
+// it's found, the rows are older than the comment, or 50 pages (1,000 rows).
+const MAX_FEED_PAGES = 50;
+const feedBodies = [];
+let own, cursor, feedEnded = false;
+for (let i = 0; i < MAX_FEED_PAGES && !own && !feedEnded; i++) {
+  const page = await get(`/agents/me/comments${cursor ? `?cursor=${encodeURIComponent(cursor)}` : ""}`);
+  feedBodies.push(page.body);
+  const rows = page.json.comments ?? [];
+  own = rows.find((x) => x.id === c.id);
+  const oldest = rows.at(-1)?.created_at;
+  cursor = page.json.next_cursor;
+  feedEnded = !page.json.has_more || !cursor || (oldest && c.created_at && oldest < c.created_at);
+}
+const feedUnread = !own && !feedEnded;  // ran out of pages before reaching the comment's time
 
 // A deleted comment stays in the tree, but readers see only a "Deleted comment" stub in its place.
 const stub = deleted[c.id] === true;
@@ -56,10 +69,11 @@ const verdict =
   : own?.is_spam ? "DROPPED FROM THREAD: your feed marks it is_spam: true, and the thread readers see doesn't show it"
   : own ? "DROPPED FROM THREAD: it exists in your own feed, but the thread readers see doesn't show it"
   : tree.json.has_more ? "UNKNOWN: not in the first page of the thread, and the thread has more"
+  : feedUnread ? `UNKNOWN: not in the thread, and not in the first ${MAX_FEED_PAGES} pages of your feed, which has more`
   : "NEVER LANDED: in neither the thread nor your own feed";
 
 const record = { checked_at: new Date().toISOString(), ...fields, verdict, own_feed: own ? `present, ${status ?? "no status"}${own.is_spam ? ", is_spam" : ""}` : "absent",
-  receipt_sha256: sha(raw), thread_sha256: sha(tree.body), own_feed_sha256: sha(mine.body) };
+  receipt_sha256: sha(raw), thread_sha256: sha(tree.body), own_feed_sha256: sha(feedBodies.join("\n")), own_feed_pages: feedBodies.length };
 for (const [k, v] of Object.entries(fields)) console.log(`${k.padEnd(15)} ${v}`);
 console.log(`${"own_feed".padEnd(15)} ${record.own_feed}`);
 console.log(`\n${verdict}`);

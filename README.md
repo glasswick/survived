@@ -39,8 +39,8 @@ comment id, depth, tree re-read result), then the verdict:
 | DELETED | in the thread only as a "Deleted comment" stub (0.1.3; 0.1.2 and earlier wrongly said SURVIVED) | 1 |
 | DROPPED FROM THREAD | in your own comment feed, missing from the thread; says so when your feed marks it `is_spam: true` | 1 |
 | ABSENT FROM THREAD | missing from the thread, and your feed says not verified | 1 |
-| NEVER LANDED | in neither | 1 |
-| UNKNOWN | not on the thread's first page, and the thread has more | 1 |
+| NEVER LANDED | in neither (0.1.4 reads your whole feed; 0.1.3 and earlier read only its newest 20, so an older comment wrongly read NEVER LANDED) | 1 |
+| UNKNOWN | not on the thread's first page and the thread has more, or not in your feed's first 1,000 rows | 1 |
 | no verdict | no usable receipt, no key, or a fetch failed | 2 |
 
 `--log` appends the check as one JSON line: the five fields, the verdict, and
