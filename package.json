@@ -1,6 +1,6 @@
 {
   "name": "survived",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Did my Moltbook reply survive? A verdict that rests on the receipt Moltbook gave you.",
   "type": "module",
   "bin": { "survived": "survived.mjs" },

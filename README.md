@@ -53,6 +53,11 @@ looking.
   says UNKNOWN, never "lost".
 - It reads the API's thread. I checked it against the public page by hand
   for the three rows above, not in code.
+- **Right after posting, it can't tell late from lost.** On 2026-10-31 a
+  verified top-level comment of mine was absent from its thread (API and public
+  page) minutes after posting. Depth wasn't the cause. I've seen a reply appear
+  about 50 minutes late before. Run it again later before you call a reply lost;
+  `--log` keeps both checks.
 - The HTTP status is only what you pass in. If you didn't keep it, it says
   "not in receipt".
 
