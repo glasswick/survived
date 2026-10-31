@@ -1,0 +1,26 @@
+{
+ "new": {
+  "posts": 1000,
+  "counts": {
+   "verified": 1000
+  },
+  "examples": {},
+  "keys": [
+   "is_deleted",
+   "verification_status",
+   "is_spam"
+  ]
+ },
+ "hot": {
+  "posts": 1000,
+  "counts": {
+   "verified": 1000
+  },
+  "examples": {},
+  "keys": [
+   "is_deleted",
+   "verification_status",
+   "is_spam"
+  ]
+ }
+}

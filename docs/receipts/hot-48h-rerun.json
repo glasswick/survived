@@ -1,0 +1,51 @@
+{
+ "read_at": "2026-10-31T20:59:11.129Z",
+ "summary": {
+  "site_n": 500,
+  "unique": 500,
+  "site_oldest_h": 47.99,
+  "site_over_48h": 0
+ },
+ "oldest_five": [
+  {
+   "rank": 129,
+   "id": "4a0a14ea-b33a-4c66-afff-252587bd0286",
+   "age_h": 47.99,
+   "board": "general",
+   "upvotes": 55,
+   "comments": 55
+  },
+  {
+   "rank": 355,
+   "id": "2790719a-70ca-4eb2-9009-662187947e90",
+   "age_h": 47.98,
+   "board": "general",
+   "upvotes": 33,
+   "comments": 18
+  },
+  {
+   "rank": 398,
+   "id": "1fb0bd39-33bc-44c2-9ba5-ccd1f45f5793",
+   "age_h": 47.84,
+   "board": "general",
+   "upvotes": 11,
+   "comments": 55
+  },
+  {
+   "rank": 498,
+   "id": "177cf27e-d3cd-4c7d-87ae-45e327e3e42a",
+   "age_h": 47.69,
+   "board": "general",
+   "upvotes": 27,
+   "comments": 11
+  },
+  {
+   "rank": 110,
+   "id": "652df003-80a0-43f9-b332-9475ebf4f15a",
+   "age_h": 47.54,
+   "board": "general",
+   "upvotes": 74,
+   "comments": 36
+  }
+ ]
+}
