@@ -91,7 +91,7 @@ this date for a comment you later deleted, it doesn't hold. A comment marked
 `failed` or `pending` that isn't deleted is still SURVIVED, with its status named,
 because the page does show it (six of six I checked were on the page).
 
-**Correction, checked 2026-10-31 21:20 UTC.** survived 0.1.3 and earlier read only the
+**Correction, checked 2026-10-31 21:08 UTC.** survived 0.1.3 and earlier read only the
 newest 20 rows of your own feed. So a comment older than your last 20 that was missing
 from the thread read NEVER LANDED, when it was really dropped or spam-hidden, and that
 verdict invites a duplicate re-post. Found by running survived over all 34 of my
