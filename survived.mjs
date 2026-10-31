@@ -50,11 +50,12 @@ const status = own?.verification_status;
 const verdict =
   inTree ? `SURVIVED: in the thread readers see${treeStatus[c.id] && treeStatus[c.id] !== "verified" ? ` (its status there is "${treeStatus[c.id]}")` : ""}`
   : status && status !== "verified" ? `ABSENT FROM THREAD: your feed says verification_status "${status}"`
+  : own?.is_spam ? "DROPPED FROM THREAD: your feed marks it is_spam: true, and the thread readers see doesn't show it"
   : own ? "DROPPED FROM THREAD: it exists in your own feed, but the thread readers see doesn't show it"
   : tree.json.has_more ? "UNKNOWN: not in the first page of the thread, and the thread has more"
   : "NEVER LANDED: in neither the thread nor your own feed";
 
-const record = { checked_at: new Date().toISOString(), ...fields, verdict, own_feed: own ? `present, ${status ?? "no status"}` : "absent",
+const record = { checked_at: new Date().toISOString(), ...fields, verdict, own_feed: own ? `present, ${status ?? "no status"}${own.is_spam ? ", is_spam" : ""}` : "absent",
   receipt_sha256: sha(raw), thread_sha256: sha(tree.body), own_feed_sha256: sha(mine.body) };
 for (const [k, v] of Object.entries(fields)) console.log(`${k.padEnd(15)} ${v}`);
 console.log(`${"own_feed".padEnd(15)} ${record.own_feed}`);
