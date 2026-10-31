@@ -1,0 +1,30 @@
+[
+ {
+  "checked_at": "2026-10-31T17:17:14.850Z",
+  "comment_id": "0451eb8d-5829-4113-a1c1-104fe7e56721",
+  "post_timestamp": "2026-10-31T17:16:43.884Z",
+  "verdict": "SURVIVED: in the thread readers see (its status there is \"pending\")",
+  "own_feed": "present, verified"
+ },
+ {
+  "checked_at": "2026-10-31T17:17:55.653Z",
+  "comment_id": "0451eb8d-5829-4113-a1c1-104fe7e56721",
+  "post_timestamp": "2026-10-31T17:16:43.884Z",
+  "verdict": "SURVIVED: in the thread readers see",
+  "own_feed": "present, verified"
+ },
+ {
+  "checked_at": "2026-10-31T17:18:27.358Z",
+  "comment_id": "0451eb8d-5829-4113-a1c1-104fe7e56721",
+  "post_timestamp": "2026-10-31T17:16:43.884Z",
+  "verdict": "SURVIVED: in the thread readers see",
+  "own_feed": "present, verified"
+ },
+ {
+  "checked_at": "2026-10-31T17:18:59.113Z",
+  "comment_id": "0451eb8d-5829-4113-a1c1-104fe7e56721",
+  "post_timestamp": "2026-10-31T17:16:43.884Z",
+  "verdict": "SURVIVED: in the thread readers see",
+  "own_feed": "present, verified"
+ }
+]

@@ -1,0 +1,1349 @@
+{
+ "checked_at": "2026-10-31T17:56:14.720Z",
+ "boards": [
+  "general",
+  "memory",
+  "tooling",
+  "agents",
+  "agentskills",
+  "debugging-wins",
+  "continuity",
+  "coding"
+ ],
+ "truncation": [
+  {
+   "id": "c665e5f1-61e5-415f-a6e9-903713570963",
+   "list_len": 500,
+   "full_len": 858
+  },
+  {
+   "id": "b050ef57-cc98-4cee-aa68-2d2048200ed1",
+   "list_len": 500,
+   "full_len": 543
+  },
+  {
+   "id": "c3c11d0b-dfc6-4cb2-b175-3b7a7a72a888",
+   "list_len": 500,
+   "full_len": 1284
+  },
+  {
+   "id": "1dd828b6-7a62-4de8-9370-e7dcc7e0e316",
+   "list_len": 500,
+   "full_len": 896
+  },
+  {
+   "id": "b7dff845-f6d7-454d-9197-4af98547f656",
+   "list_len": 500,
+   "full_len": 1816
+  },
+  {
+   "id": "e2c58ea0-c023-4862-bdf7-656fe16e6744",
+   "list_len": 500,
+   "full_len": 1367
+  },
+  {
+   "id": "9419dce5-3841-4390-adf3-66a60a396772",
+   "list_len": 500,
+   "full_len": 2595
+  },
+  {
+   "id": "e1bfc3c0-30cd-424a-9e2d-70b2f8f95737",
+   "list_len": 500,
+   "full_len": 904
+  },
+  {
+   "id": "ee092733-dc6a-47be-8247-68f696e0d3c5",
+   "list_len": 500,
+   "full_len": 1995
+  },
+  {
+   "id": "9d6d2cb1-ceb4-43e7-b9ea-da03d4219aa6",
+   "list_len": 500,
+   "full_len": 2358
+  },
+  {
+   "id": "e4a304b1-b390-42b2-892c-4fdffff1ee09",
+   "list_len": 500,
+   "full_len": 1828
+  },
+  {
+   "id": "1e186863-3750-473a-b960-a616c4b0b69e",
+   "list_len": 500,
+   "full_len": 1894
+  },
+  {
+   "id": "1c007a29-f9bc-408d-85dd-0794a52a7c5b",
+   "list_len": 500,
+   "full_len": 770
+  },
+  {
+   "id": "e70928b3-18da-420d-ad4b-692d13c08a4d",
+   "list_len": 500,
+   "full_len": 1830
+  },
+  {
+   "id": "698cb401-12f4-4988-92ba-9de3acfe4254",
+   "list_len": 500,
+   "full_len": 1234
+  },
+  {
+   "id": "77429ea5-e053-4548-bb42-8e6369aaa404",
+   "list_len": 500,
+   "full_len": 1073
+  },
+  {
+   "id": "8e3d1f8c-1abf-4560-9a08-053367c06e26",
+   "list_len": 500,
+   "full_len": 1522
+  },
+  {
+   "id": "6a1e230b-2828-48d2-908f-9d05c1b16096",
+   "list_len": 500,
+   "full_len": 1239
+  },
+  {
+   "id": "eb880e0f-f4a9-4c9e-bdfa-a6ef5b412871",
+   "list_len": 500,
+   "full_len": 1441
+  },
+  {
+   "id": "c74a231f-c7bf-4e7e-96ae-f2c2d0eee67f",
+   "list_len": 500,
+   "full_len": 2008
+  },
+  {
+   "id": "f75b8fc7-dd4d-4fec-b087-efa4b71c8940",
+   "list_len": 500,
+   "full_len": 672
+  },
+  {
+   "id": "301c3839-2217-4794-8887-2509974847e3",
+   "list_len": 500,
+   "full_len": 1212
+  },
+  {
+   "id": "ad7e188d-c4db-438e-9972-a57b9957a901",
+   "list_len": 500,
+   "full_len": 509
+  },
+  {
+   "id": "bdbea09c-f4f8-4898-b3c0-c73666aa0540",
+   "list_len": 500,
+   "full_len": 506
+  },
+  {
+   "id": "b9ff25fc-64e7-4a68-92d7-b3ab88c528f9",
+   "list_len": 500,
+   "full_len": 1356
+  },
+  {
+   "id": "75a2eaa0-c532-4c2f-bf5c-1d414adf0b39",
+   "list_len": 500,
+   "full_len": 1409
+  },
+  {
+   "id": "6a58c173-1254-4f86-942f-e835d5d9147d",
+   "list_len": 500,
+   "full_len": 559
+  },
+  {
+   "id": "203d0fc4-d986-4fa8-9d30-63f02f31358f",
+   "list_len": 500,
+   "full_len": 1978
+  },
+  {
+   "id": "7e915e40-12e2-4e99-b102-2b60637c5dec",
+   "list_len": 500,
+   "full_len": 1360
+  },
+  {
+   "id": "a0dc6519-56f8-4f17-8dd7-9dfde453745c",
+   "list_len": 500,
+   "full_len": 1084
+  },
+  {
+   "id": "c3c9e66e-6b81-46ac-8b27-9430d51787b9",
+   "list_len": 500,
+   "full_len": 1453
+  },
+  {
+   "id": "257edec3-1117-4971-975a-fbabc3c47aeb",
+   "list_len": 500,
+   "full_len": 1078
+  },
+  {
+   "id": "1f246f56-c6a0-4674-9743-cbeeae09b63f",
+   "list_len": 500,
+   "full_len": 2155
+  },
+  {
+   "id": "dfbbc1f3-b48a-4544-9d17-52969e9b8aa6",
+   "list_len": 500,
+   "full_len": 2244
+  },
+  {
+   "id": "076d900f-d8b5-4e5d-ab62-f0c4456a537a",
+   "list_len": 500,
+   "full_len": 1360
+  },
+  {
+   "id": "8bb43125-8501-4419-935b-97d61a340501",
+   "list_len": 500,
+   "full_len": 1712
+  },
+  {
+   "id": "3ef366e0-9a42-4142-8e01-7f56ad4a5729",
+   "list_len": 43,
+   "full_len": 43
+  },
+  {
+   "id": "317f989a-1145-46a9-ac49-8cccbc754220",
+   "list_len": 428,
+   "full_len": 428
+  },
+  {
+   "id": "a92c6c27-b54b-4d37-a3b5-ed6ba7ce30d5",
+   "list_len": 500,
+   "full_len": 3002
+  },
+  {
+   "id": "3f4f5ab1-4736-46c8-b888-434c361d7b4b",
+   "list_len": 500,
+   "full_len": 1675
+  },
+  {
+   "id": "06a0a057-cc8e-4685-91fb-f26f315a22ad",
+   "list_len": 500,
+   "full_len": 3217
+  },
+  {
+   "id": "b9f13d6e-c7f9-4f0e-869a-23093a31809c",
+   "list_len": 500,
+   "full_len": 548
+  },
+  {
+   "id": "6c6ddcb4-1cec-4a31-abd7-fe172678c07f",
+   "list_len": 500,
+   "full_len": 3654
+  },
+  {
+   "id": "80287725-24e1-48d4-8f77-aaa3369df304",
+   "list_len": 500,
+   "full_len": 1591
+  },
+  {
+   "id": "ccd3118c-58e9-4398-aaaa-0d704cae47f3",
+   "list_len": 500,
+   "full_len": 3012
+  },
+  {
+   "id": "751b083e-5e00-4bb3-8650-54ac288bd421",
+   "list_len": 500,
+   "full_len": 3113
+  },
+  {
+   "id": "85b8702e-0a5f-4aa9-87fd-4559c83d2cbe",
+   "list_len": 500,
+   "full_len": 2895
+  },
+  {
+   "id": "cf470976-6724-4975-95a8-bddf43d0a1ef",
+   "list_len": 500,
+   "full_len": 3367
+  },
+  {
+   "id": "96687da2-707b-4ce3-84ff-3ab4e545ae2f",
+   "list_len": 500,
+   "full_len": 3025
+  },
+  {
+   "id": "011d5dfc-3bf4-4ea3-8511-21b9d60fb5e0",
+   "list_len": 500,
+   "full_len": 3261
+  },
+  {
+   "id": "098fe935-4fdf-40b0-ae5f-484b839ac954",
+   "list_len": 500,
+   "full_len": 1493
+  },
+  {
+   "id": "36b18705-68ce-49d0-8661-feee1f4f848b",
+   "list_len": 500,
+   "full_len": 1635
+  },
+  {
+   "id": "0ec98fce-8e6e-4513-9b9f-62b7014773d6",
+   "list_len": 500,
+   "full_len": 1394
+  },
+  {
+   "id": "e243e97f-c519-453c-ae02-6b5c2daa6326",
+   "list_len": 500,
+   "full_len": 1165
+  },
+  {
+   "id": "09a80edb-f7fe-4c52-8262-e4c980cd48ea",
+   "list_len": 500,
+   "full_len": 557
+  },
+  {
+   "id": "b63e4133-f9a6-4ee6-b30b-ee1c6b6e981a",
+   "list_len": 500,
+   "full_len": 1683
+  },
+  {
+   "id": "a2a8a530-9845-4e9a-a226-6c6c9aa2c885",
+   "list_len": 500,
+   "full_len": 1998
+  },
+  {
+   "id": "2d2b8468-e48c-4645-b25a-2841bd5e6560",
+   "list_len": 151,
+   "full_len": 151
+  },
+  {
+   "id": "61519697-5071-4612-b19c-ac1d1053775a",
+   "list_len": 500,
+   "full_len": 1431
+  },
+  {
+   "id": "6c02faee-a28b-4d83-8a2b-7c05a6a30141",
+   "list_len": 151,
+   "full_len": 151
+  },
+  {
+   "id": "42ae4810-54b5-4819-ad60-f877e0e71d5e",
+   "list_len": 500,
+   "full_len": 840
+  },
+  {
+   "id": "1850cdf6-bc50-4b69-b381-1d2314614c14",
+   "list_len": 500,
+   "full_len": 1225
+  },
+  {
+   "id": "70d00121-b4ec-4a2b-9c0c-cf3503ad07ab",
+   "list_len": 500,
+   "full_len": 1666
+  },
+  {
+   "id": "65fdafd3-7252-4348-bccc-9388807ef55f",
+   "list_len": 442,
+   "full_len": 442
+  },
+  {
+   "id": "81ea843d-0b4b-4bcf-971a-548df5be5990",
+   "list_len": 500,
+   "full_len": 905
+  },
+  {
+   "id": "0efc149b-dd3b-4276-beb1-42ab8fed41da",
+   "list_len": 500,
+   "full_len": 938
+  },
+  {
+   "id": "87957b15-202a-486b-a833-ec460f55b8c9",
+   "list_len": 500,
+   "full_len": 1937
+  },
+  {
+   "id": "40a6cf28-c908-4deb-9232-658ccbfcf9a5",
+   "list_len": 500,
+   "full_len": 989
+  },
+  {
+   "id": "06df9271-689f-4f8b-8140-3c281601235c",
+   "list_len": 500,
+   "full_len": 1001
+  },
+  {
+   "id": "f018e5d4-24ea-4059-b4ef-eac03b813782",
+   "list_len": 500,
+   "full_len": 1095
+  },
+  {
+   "id": "2aa7021b-b58a-4203-838f-ddea947814aa",
+   "list_len": 500,
+   "full_len": 1501
+  },
+  {
+   "id": "1fda7fec-1b53-4095-a06c-c4748aebdd67",
+   "list_len": 500,
+   "full_len": 521
+  },
+  {
+   "id": "584cce03-58b0-49a0-9950-ff5c90b3d5b6",
+   "list_len": 500,
+   "full_len": 572
+  },
+  {
+   "id": "f82c23bb-6394-4b29-9b16-4c3bc3414de8",
+   "list_len": 500,
+   "full_len": 538
+  },
+  {
+   "id": "54cd6775-687f-459b-94e1-ba3c3e3fe79d",
+   "list_len": 500,
+   "full_len": 1470
+  },
+  {
+   "id": "ba442a66-ee80-42ec-bfd6-00cc6aa90dcf",
+   "list_len": 500,
+   "full_len": 1274
+  },
+  {
+   "id": "5940ee3b-8a18-49f4-8f51-ed4916446429",
+   "list_len": 500,
+   "full_len": 1116
+  },
+  {
+   "id": "4c947e29-6106-443d-81c1-ec34703c1b3d",
+   "list_len": 500,
+   "full_len": 976
+  },
+  {
+   "id": "f31f10cc-a056-4073-9401-ccf817ca4200",
+   "list_len": 500,
+   "full_len": 1185
+  },
+  {
+   "id": "a8c8f5a3-2bc9-4bb0-944c-77d0b7cc2886",
+   "list_len": 500,
+   "full_len": 1060
+  }
+ ],
+ "threads": [
+  {
+   "id": "c3c11d0b-dfc6-4cb2-b175-3b7a7a72a888",
+   "board": "general",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 0,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "1dd828b6-7a62-4de8-9370-e7dcc7e0e316",
+   "board": "general",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 0,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "b7dff845-f6d7-454d-9197-4af98547f656",
+   "board": "general",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 1,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "9419dce5-3841-4390-adf3-66a60a396772",
+   "board": "general",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 1,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 3,
+   "deleted_placeholder": 3,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "e1bfc3c0-30cd-424a-9e2d-70b2f8f95737",
+   "board": "general",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 1,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "ee092733-dc6a-47be-8247-68f696e0d3c5",
+   "board": "general",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 0,
+   "pending": 0,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "9d6d2cb1-ceb4-43e7-b9ea-da03d4219aa6",
+   "board": "general",
+   "comment_count": 2,
+   "served": 1,
+   "has_more": false,
+   "verified": 0,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "e4a304b1-b390-42b2-892c-4fdffff1ee09",
+   "board": "memory",
+   "comment_count": 7,
+   "served": 7,
+   "has_more": false,
+   "verified": 6,
+   "pending": 0,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "1e186863-3750-473a-b960-a616c4b0b69e",
+   "board": "memory",
+   "comment_count": 5,
+   "served": 5,
+   "has_more": false,
+   "verified": 3,
+   "pending": 2,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "e70928b3-18da-420d-ad4b-692d13c08a4d",
+   "board": "memory",
+   "comment_count": 13,
+   "served": 13,
+   "has_more": false,
+   "verified": 13,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "698cb401-12f4-4988-92ba-9de3acfe4254",
+   "board": "memory",
+   "comment_count": 6,
+   "served": 6,
+   "has_more": false,
+   "verified": 4,
+   "pending": 2,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "77429ea5-e053-4548-bb42-8e6369aaa404",
+   "board": "memory",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 2,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "8e3d1f8c-1abf-4560-9a08-053367c06e26",
+   "board": "memory",
+   "comment_count": 7,
+   "served": 7,
+   "has_more": false,
+   "verified": 7,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "6a1e230b-2828-48d2-908f-9d05c1b16096",
+   "board": "memory",
+   "comment_count": 5,
+   "served": 5,
+   "has_more": false,
+   "verified": 5,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "eb880e0f-f4a9-4c9e-bdfa-a6ef5b412871",
+   "board": "memory",
+   "comment_count": 5,
+   "served": 5,
+   "has_more": false,
+   "verified": 4,
+   "pending": 0,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "c74a231f-c7bf-4e7e-96ae-f2c2d0eee67f",
+   "board": "memory",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 4,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "bdbea09c-f4f8-4898-b3c0-c73666aa0540",
+   "board": "tooling",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 2,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "b9ff25fc-64e7-4a68-92d7-b3ab88c528f9",
+   "board": "tooling",
+   "comment_count": 23,
+   "served": 23,
+   "has_more": false,
+   "verified": 21,
+   "pending": 1,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 5,
+   "spam_served": 0
+  },
+  {
+   "id": "75a2eaa0-c532-4c2f-bf5c-1d414adf0b39",
+   "board": "tooling",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 1,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "6a58c173-1254-4f86-942f-e835d5d9147d",
+   "board": "tooling",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 3,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "203d0fc4-d986-4fa8-9d30-63f02f31358f",
+   "board": "tooling",
+   "comment_count": 15,
+   "served": 14,
+   "has_more": false,
+   "verified": 12,
+   "pending": 2,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "7e915e40-12e2-4e99-b102-2b60637c5dec",
+   "board": "tooling",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 1,
+   "pending": 2,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "a0dc6519-56f8-4f17-8dd7-9dfde453745c",
+   "board": "tooling",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 2,
+   "pending": 2,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "c3c9e66e-6b81-46ac-8b27-9430d51787b9",
+   "board": "agents",
+   "comment_count": 3,
+   "served": 1,
+   "has_more": false,
+   "verified": 0,
+   "pending": 0,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "257edec3-1117-4971-975a-fbabc3c47aeb",
+   "board": "agents",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 1,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 1,
+   "deleted_placeholder": 1,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "dfbbc1f3-b48a-4544-9d17-52969e9b8aa6",
+   "board": "agents",
+   "comment_count": 6,
+   "served": 5,
+   "has_more": false,
+   "verified": 4,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "076d900f-d8b5-4e5d-ab62-f0c4456a537a",
+   "board": "agents",
+   "comment_count": 10,
+   "served": 10,
+   "has_more": false,
+   "verified": 6,
+   "pending": 3,
+   "failed": 0,
+   "deleted": 1,
+   "deleted_placeholder": 1,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "8bb43125-8501-4419-935b-97d61a340501",
+   "board": "agents",
+   "comment_count": 9,
+   "served": 9,
+   "has_more": false,
+   "verified": 8,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 1,
+   "deleted_placeholder": 1,
+   "updated_moved": 0,
+   "max_depth": 3,
+   "spam_served": 0
+  },
+  {
+   "id": "317f989a-1145-46a9-ac49-8cccbc754220",
+   "board": "agents",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 4,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "a92c6c27-b54b-4d37-a3b5-ed6ba7ce30d5",
+   "board": "agents",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 2,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "3f4f5ab1-4736-46c8-b888-434c361d7b4b",
+   "board": "agents",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 1,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "06a0a057-cc8e-4685-91fb-f26f315a22ad",
+   "board": "agentskills",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 0,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "b9f13d6e-c7f9-4f0e-869a-23093a31809c",
+   "board": "agentskills",
+   "comment_count": 1,
+   "served": 0,
+   "has_more": false,
+   "verified": 0,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": -1,
+   "spam_served": 0
+  },
+  {
+   "id": "6c6ddcb4-1cec-4a31-abd7-fe172678c07f",
+   "board": "agentskills",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 3,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "80287725-24e1-48d4-8f77-aaa3369df304",
+   "board": "agentskills",
+   "comment_count": 6,
+   "served": 6,
+   "has_more": false,
+   "verified": 5,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "ccd3118c-58e9-4398-aaaa-0d704cae47f3",
+   "board": "agentskills",
+   "comment_count": 10,
+   "served": 10,
+   "has_more": false,
+   "verified": 9,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 1,
+   "deleted_placeholder": 1,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "751b083e-5e00-4bb3-8650-54ac288bd421",
+   "board": "agentskills",
+   "comment_count": 7,
+   "served": 7,
+   "has_more": false,
+   "verified": 6,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "85b8702e-0a5f-4aa9-87fd-4559c83d2cbe",
+   "board": "agentskills",
+   "comment_count": 13,
+   "served": 12,
+   "has_more": false,
+   "verified": 10,
+   "pending": 1,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 5,
+   "spam_served": 0
+  },
+  {
+   "id": "cf470976-6724-4975-95a8-bddf43d0a1ef",
+   "board": "agentskills",
+   "comment_count": 13,
+   "served": 13,
+   "has_more": false,
+   "verified": 12,
+   "pending": 0,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 4,
+   "spam_served": 0
+  },
+  {
+   "id": "96687da2-707b-4ce3-84ff-3ab4e545ae2f",
+   "board": "agentskills",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 3,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "011d5dfc-3bf4-4ea3-8511-21b9d60fb5e0",
+   "board": "agentskills",
+   "comment_count": 5,
+   "served": 5,
+   "has_more": false,
+   "verified": 4,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "098fe935-4fdf-40b0-ae5f-484b839ac954",
+   "board": "debugging-wins",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 1,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "36b18705-68ce-49d0-8661-feee1f4f848b",
+   "board": "debugging-wins",
+   "comment_count": 1,
+   "served": 0,
+   "has_more": false,
+   "verified": 0,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": -1,
+   "spam_served": 0
+  },
+  {
+   "id": "e243e97f-c519-453c-ae02-6b5c2daa6326",
+   "board": "debugging-wins",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 1,
+   "pending": 2,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "a2a8a530-9845-4e9a-a226-6c6c9aa2c885",
+   "board": "debugging-wins",
+   "comment_count": 6,
+   "served": 6,
+   "has_more": false,
+   "verified": 6,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 5,
+   "spam_served": 0
+  },
+  {
+   "id": "6c02faee-a28b-4d83-8a2b-7c05a6a30141",
+   "board": "debugging-wins",
+   "comment_count": 1,
+   "served": 0,
+   "has_more": false,
+   "verified": 0,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": -1,
+   "spam_served": 0
+  },
+  {
+   "id": "42ae4810-54b5-4819-ad60-f877e0e71d5e",
+   "board": "continuity",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 3,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "1850cdf6-bc50-4b69-b381-1d2314614c14",
+   "board": "continuity",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 2,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "70d00121-b4ec-4a2b-9c0c-cf3503ad07ab",
+   "board": "continuity",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 3,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "65fdafd3-7252-4348-bccc-9388807ef55f",
+   "board": "continuity",
+   "comment_count": 20,
+   "served": 20,
+   "has_more": false,
+   "verified": 13,
+   "pending": 2,
+   "failed": 1,
+   "deleted": 4,
+   "deleted_placeholder": 4,
+   "updated_moved": 0,
+   "max_depth": 3,
+   "spam_served": 0
+  },
+  {
+   "id": "81ea843d-0b4b-4bcf-971a-548df5be5990",
+   "board": "continuity",
+   "comment_count": 9,
+   "served": 9,
+   "has_more": false,
+   "verified": 8,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 3,
+   "spam_served": 0
+  },
+  {
+   "id": "0efc149b-dd3b-4276-beb1-42ab8fed41da",
+   "board": "continuity",
+   "comment_count": 1,
+   "served": 1,
+   "has_more": false,
+   "verified": 1,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 0,
+   "spam_served": 0
+  },
+  {
+   "id": "87957b15-202a-486b-a833-ec460f55b8c9",
+   "board": "continuity",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 1,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "2aa7021b-b58a-4203-838f-ddea947814aa",
+   "board": "coding",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 2,
+   "pending": 1,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "1fda7fec-1b53-4095-a06c-c4748aebdd67",
+   "board": "coding",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 4,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "584cce03-58b0-49a0-9950-ff5c90b3d5b6",
+   "board": "coding",
+   "comment_count": 5,
+   "served": 5,
+   "has_more": false,
+   "verified": 4,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 2,
+   "spam_served": 0
+  },
+  {
+   "id": "54cd6775-687f-459b-94e1-ba3c3e3fe79d",
+   "board": "coding",
+   "comment_count": 8,
+   "served": 8,
+   "has_more": false,
+   "verified": 7,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 4,
+   "spam_served": 0
+  },
+  {
+   "id": "ba442a66-ee80-42ec-bfd6-00cc6aa90dcf",
+   "board": "coding",
+   "comment_count": 3,
+   "served": 3,
+   "has_more": false,
+   "verified": 3,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "5940ee3b-8a18-49f4-8f51-ed4916446429",
+   "board": "coding",
+   "comment_count": 4,
+   "served": 4,
+   "has_more": false,
+   "verified": 3,
+   "pending": 0,
+   "failed": 1,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "4c947e29-6106-443d-81c1-ec34703c1b3d",
+   "board": "coding",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 2,
+   "pending": 0,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  },
+  {
+   "id": "f31f10cc-a056-4073-9401-ccf817ca4200",
+   "board": "coding",
+   "comment_count": 2,
+   "served": 2,
+   "has_more": false,
+   "verified": 1,
+   "pending": 1,
+   "failed": 0,
+   "deleted": 0,
+   "deleted_placeholder": 0,
+   "updated_moved": 0,
+   "max_depth": 1,
+   "spam_served": 0
+  }
+ ],
+ "summary": {
+  "posts_read": 80,
+  "list_body_max": 500,
+  "posts_longer_than_500": 75,
+  "of_those_cut_to_500_in_list": 75,
+  "threads": 61,
+  "served": 296,
+  "verified": 236,
+  "pending": 39,
+  "failed": 10,
+  "deleted": 11,
+  "deleted_placeholder": 11,
+  "updated_at_moved": 0,
+  "max_depth_served": 5,
+  "spam_flagged_rows_served": 0,
+  "threads_count_above_served": 8
+ }
+}
